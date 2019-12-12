@@ -36,14 +36,6 @@ td-cli create project-name
 td-cli config set repo repo-name
 ```
 
-项目发布
-
-```js
-nrm use npm  // 准备发布包
-npm addUser  // 填写账号密码
-npm publish  // 已经发布成功
-```
-
 ## 2.工程创建
 
 ### 2.1 创建文件夹
@@ -458,6 +450,14 @@ if (!fs.existsSync(path.join(result, 'ask.js'))) {
 ```
 
 > 这里的逻辑就是上面描述的那样,实现了模版替换！到此安装项目的功能就完成了。
+
+### 项目发布
+
+```js
+nrm use npm  // 准备发布包
+npm addUser  // 填写账号密码
+npm publish  // 已经发布成功
+```
 
 
 
